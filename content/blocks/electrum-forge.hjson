@@ -6,13 +6,10 @@ size: 2
 hasPower: true
 hasLiquids: true
 hasItems: true
-craftTime: 60
+craftTime: 0
 updateEffect: smeltsmoke
 consumes: {
-  power: 0.7
-  items: {
-    items: [
-      gold-powder/2
+  power: 0
     ]
   }
   liquid: {
@@ -21,10 +18,10 @@ consumes: {
   }
 }
 requirements: [
-  lead/50
-  thorium/80
-  silicon/60
-  silver/50
+  lead/0
+  thorium/0
+  silicon/0
+  silver/0
 ]
 category: crafting
 research: silver-crucible

@@ -3,19 +3,16 @@ description: A very strange drill.
 type: Drill
 size: 3
 tier: 2
-drillTime: 250
+drillTime: 2500
 consumes: {
-  power: 3
-  liquid: {
-    liquid: molten-silver
-    amount: 0.1
+  power: 0
     booster: true
   }
 }
 requirements: [
-  electrum/80
-  silicon/40
-  graphite/20
+  electrum/0
+  silicon/0
+  graphite/0
 ]
 category: production
 research: laser-drill
